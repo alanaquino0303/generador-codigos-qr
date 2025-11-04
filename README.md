@@ -1,6 +1,6 @@
 # Generador de Códigos QR
 
-**Generador de Códigos QR** es una aplicación web sencilla y ligera para crear códigos QR personalizados desde el navegador. Permite definir el texto o URL, el color del código, el color de fondo, el tamaño y descargar el resultado en PNG. Pensada para **rapidez**, **accesibilidad** y **fácil integración** en páginas estáticas.
+Aplicación web sencilla y ligera para crear códigos QR personalizados desde el navegador. Permite definir el texto o URL, el color del código, el color de fondo, el tamaño y descargar el resultado en PNG. Pensada para **rapidez**, **accesibilidad** y **fácil integración** en páginas estáticas.
 
 ---
 
