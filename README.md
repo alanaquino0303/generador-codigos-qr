@@ -14,7 +14,7 @@ Aplicación web sencilla y ligera para crear códigos QR personalizados desde el
 
 ---
 
-## Estructura del repositorio
+## Estructura del proyecto
 
 ```
 / generador-codigos-qr
