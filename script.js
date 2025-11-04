@@ -55,7 +55,6 @@ generateBtn.addEventListener("click", () => {
     correctLevel: QRCode.CorrectLevel.H
   });
 
-  // Animación de aparición.
   qrcodeContainer.classList.remove("visible");
   downloadBtn.classList.remove("visible");
   setTimeout(() => {
@@ -68,14 +67,20 @@ generateBtn.addEventListener("click", () => {
 // Descargar QR.
 downloadBtn.addEventListener("click", () => {
   const img = qrcodeContainer.querySelector("img");
-  if (img) {
-    const enlace = document.createElement("a");
+  const canvas = qrcodeContainer.querySelector("canvas");
+  let enlace = document.createElement("a");
+
+  if (img && img.src) {
     enlace.href = img.src;
-    enlace.download = "codigo-qr.png";
-    enlace.click();
+  } else if (canvas) {
+    enlace.href = canvas.toDataURL("image/png");
   } else {
     mostrarModal("Primero genera un código QR antes de descargarlo.", false);
+    return;
   }
+
+  enlace.download = "codigo-qr.png";
+  enlace.click();
 });
 
 // Modal.
