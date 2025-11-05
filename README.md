@@ -21,7 +21,7 @@ Aplicación web sencilla y ligera para crear códigos QR personalizados desde el
 ├─ index.html        # Interfaz principal y carga de librerías externas.
 ├─ script.js         # Lógica de generación, descarga y modal.
 ├─ style.css         # Estilos, animaciones y modo oscuro.
-├─ README.md         # Documentación.
+└─ README.md         # Documentación.
 ```
 
 ---
