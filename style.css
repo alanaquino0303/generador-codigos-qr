@@ -16,7 +16,7 @@ body {
 }  
 /* Encabezado */  
 header {  
-  background: #FF0000;  
+  background: #FF8000;  
   color: white;  
   padding: 15px 20px;  
   display: flex;  
@@ -48,7 +48,7 @@ section {
 }
 section h1 {
   margin-bottom: 20px;
-  color: #FF0000;
+  color: #FF8000;
   font-weight: 600;
 }
 
@@ -71,8 +71,8 @@ section h1 {
 }
 .qr-container input:focus {
   outline: none;
-  border: 2px solid #FF0000;
-  box-shadow: 0 0 5px rgba(255, 0, 0, 0.4);
+  border: 2px solid #FF8000;
+  box-shadow: 0 0 5px rgba(255, 128, 0, 0.4);
 }
 
 /* Opciones QR */
@@ -94,7 +94,7 @@ section h1 {
 
 /* Botones */
 button {
-  background: #FF0000;
+  background: #FF8000;
   color: white;
   border: none;
   padding: 12px 20px;
@@ -105,7 +105,7 @@ button {
   transition: background 0.3s, transform 0.2s;
 }
 button:hover {
-  background: #cc0000;
+  background: #cc6600;
   transform: translateY(-2px);
 }
 .hidden {
@@ -142,7 +142,7 @@ button:hover {
 
 /* Pie de página */
 footer {
-  background: #FF0000;
+  background: #FF8000;
   color: white;
   text-align: center;
   padding: 20px 0;
@@ -193,10 +193,10 @@ footer {
   color: #eaeaea;
 }
 .dark-mode header {
-  background: #cc0000;
+  background: #cc6600;
 }
 .dark-mode section h1 {
-  color: #ff9999;
+  color: #ffb380;
 }
 .dark-mode .qr-container {
   background: #2c2c2c;
@@ -210,7 +210,7 @@ footer {
   border: 1px solid #555;
 }
 .dark-mode footer {
-  background: #cc0000;
+  background: #cc6600;
 }
 .dark-mode .modal-content {
   background: #2c2c2c;
@@ -226,4 +226,4 @@ footer {
     flex-direction: column;
     align-items: center;
   }
-                             }
+    }
